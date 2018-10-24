@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="accent_material_dark">#ff7b00</color>
-    <color name="foreground_material_dark">#ffffff</color>
-    <color name="primary_text_default_material_light">#deff0000</color>
+    <color name="colorToolBar_AppTheme">#000000</color>
+    <color name="colorStatusBar_AppTheme">#000000</color>
+    <color name="colorToolBar_AppThemeToolBar">#a92800</color>
+    <color name="colorStatusBar_AppThemeToolBar">#892000</color>
+    <color name="colorAccent">#ff7b00</color>
+    <color name="windowBackground">#000000</color>
+    <color name="colorButton">#a92800</color>
+    <color name="colorButtonHighlight">#ffff00</color>
+    <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="primary_material_dark">#1e1e1e</color>
-    <color name="darker_gray">#000000</color>
+    <color name="color0">#FF0000</color>
+    <color name="color1">#00FF00</color>
+    <color name="color2">#0066FF</color>
+    <color name="color3">#FF9000</color>
+    <color name="color4">#FF64BE</color>
+    <color name="color5">#BA00FF</color>
+    <color name="color6">#FFFF00</color>
+    <color name="color7">#00CCFF</color>
+    <color name="color8">#905A2D</color>
 </resources>

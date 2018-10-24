@@ -1,4 +1,4 @@
-package com.piniponselvagem.tetris.model.board;
+package com.piniponselvagem.tetris.game.model.board;
 
 
 public class Board {
@@ -64,9 +64,7 @@ public class Board {
 			board[line]=new int[DIM_COLS];
 		for (int col=0 ; col<DIM_COLS; ++col)
             listener.whenLineDelete(line);
-			//gridShow(line+BASE_LINE,col)
-			;
-		
+			//gridShow(line+BASE_LINE,col);
 	}
 	
 	private static void lineMove(int line) {

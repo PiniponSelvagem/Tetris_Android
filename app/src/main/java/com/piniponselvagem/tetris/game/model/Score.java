@@ -1,6 +1,6 @@
-package com.piniponselvagem.tetris.model;
+package com.piniponselvagem.tetris.game.model;
 
-import com.piniponselvagem.tetris.model.board.Board;
+import com.piniponselvagem.tetris.game.model.board.Board;
 
 public class Score {
 	private static final boolean 

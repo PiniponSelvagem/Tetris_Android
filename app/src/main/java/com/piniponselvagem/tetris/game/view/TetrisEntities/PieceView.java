@@ -1,11 +1,11 @@
-package com.piniponselvagem.tetris.view.TetrisEntities;
+package com.piniponselvagem.tetris.game.view.TetrisEntities;
 
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
 
-import com.piniponselvagem.tetris.model.piece.Piece;
-import com.piniponselvagem.tetris.view.TetrisView;
+import com.piniponselvagem.tetris.game.model.piece.Piece;
+import com.piniponselvagem.tetris.game.view.TetrisView;
 
 public class PieceView extends TetrisView {
     private int color;

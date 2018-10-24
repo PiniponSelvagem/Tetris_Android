@@ -1,17 +1,17 @@
-package com.piniponselvagem.tetris;
+package com.piniponselvagem.tetris.game;
 
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.piniponselvagem.tetris.model.board.Board;
-import com.piniponselvagem.tetris.model.board.BoardListener;
-import com.piniponselvagem.tetris.model.piece.Piece;
-import com.piniponselvagem.tetris.model.piece.PieceListener;
-import com.piniponselvagem.tetris.view.TetrisEntities.PieceView;
-import com.piniponselvagem.tetris.view.TetrisView;
+import com.piniponselvagem.tetris.R;
+import com.piniponselvagem.tetris.game.model.board.Board;
+import com.piniponselvagem.tetris.game.model.board.BoardListener;
+import com.piniponselvagem.tetris.game.model.piece.Piece;
+import com.piniponselvagem.tetris.game.model.piece.PieceListener;
+import com.piniponselvagem.tetris.game.view.TetrisEntities.PieceView;
+import com.piniponselvagem.tetris.game.view.TetrisView;
 
 import pt.isel.poo.tile.OnBeatListener;
 import pt.isel.poo.tile.TilePanel;
@@ -46,6 +46,17 @@ public class GameActivity extends AppCompatActivity implements View.OnTouchListe
         this.piece.setPieceListener(this);
         this.board.setBoardListener(this);
         startBoardScore();
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        this.panel.removeHeartbeatListener();
+        this.board.setBoardListener(null);
+        this.board = null;
+        this.piece = null;
+        this.panel = null;
+        finish();
     }
 
 

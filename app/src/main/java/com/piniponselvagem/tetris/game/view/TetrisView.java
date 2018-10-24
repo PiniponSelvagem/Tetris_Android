@@ -1,10 +1,10 @@
-package com.piniponselvagem.tetris.view;
+package com.piniponselvagem.tetris.game.view;
 
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.piniponselvagem.tetris.model.piece.Piece;
+import com.piniponselvagem.tetris.game.model.piece.Piece;
 
 import pt.isel.poo.tile.Tile;
 import pt.isel.poo.tile.TilePanel;

@@ -1,10 +1,10 @@
-package com.piniponselvagem.tetris.view.TetrisEntities;
+package com.piniponselvagem.tetris.game.view.TetrisEntities;
 
 
 import android.graphics.Canvas;
 
-import com.piniponselvagem.tetris.model.piece.Piece;
-import com.piniponselvagem.tetris.view.TetrisView;
+import com.piniponselvagem.tetris.game.model.piece.Piece;
+import com.piniponselvagem.tetris.game.view.TetrisView;
 
 public class BoardView extends TetrisView {
     public BoardView(Piece piece) {

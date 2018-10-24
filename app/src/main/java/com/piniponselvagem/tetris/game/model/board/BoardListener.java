@@ -1,4 +1,4 @@
-package com.piniponselvagem.tetris.model.board;
+package com.piniponselvagem.tetris.game.model.board;
 
 
 public interface BoardListener {

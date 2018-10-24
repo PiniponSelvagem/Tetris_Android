@@ -1,10 +1,10 @@
-package com.piniponselvagem.tetris.model.piece;
+package com.piniponselvagem.tetris.game.model.piece;
 
 
 import android.graphics.Color;
 
-import com.piniponselvagem.tetris.GameActivity;
-import com.piniponselvagem.tetris.model.board.Board;
+import com.piniponselvagem.tetris.game.GameActivity;
+import com.piniponselvagem.tetris.game.model.board.Board;
 
 public class Piece {
     private PieceListener listener;
